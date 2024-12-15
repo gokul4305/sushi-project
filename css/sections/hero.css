@@ -63,8 +63,8 @@
 .hero-content__buttons {
   margin: 42px 0 0 42px;
   display: flex;
+  margin-top: 10px;
 
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 66px;
 }
@@ -84,11 +84,11 @@
 .hero-content__play-button {
   outline: none;
   border: none;
-  background: transparent;
+  background: var(--color-yellow);
   align-items: center;
   margin-left: 10px;
-
-  background: #fdfdec;
+  margin-top: 30px;
+  align-self: center;
 
   padding: 20px;
   border-radius: 36px;
